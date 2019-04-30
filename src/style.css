@@ -46,10 +46,10 @@ h1 {
   font-size: 16px;
   display: inline-block;
 }
-.mood--neutral {}
-.mood--happy {}
+
 .mood__number {
   font-weight: bold;
+  font-size: 18px;
 }
 
 .mood__slider {
@@ -66,4 +66,8 @@ footer {
   font-size: 10px;
 }
 
-
+@media only screen and (max-width : 450px) {
+  h1 { font-size: 20px; }
+  .mood__number { font-size: 14px; }
+  .mood__slider { width: 200px; }
+}
